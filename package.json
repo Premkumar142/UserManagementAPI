@@ -1,0 +1,27 @@
+{
+  "name": "expressframework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ServerConnection.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.4.0",
+    "nock": "^13.0.11",
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "test": "mocha --exit",
+    "start": "nodemon ServerConnection.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
